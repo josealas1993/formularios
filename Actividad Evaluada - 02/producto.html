@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+</head>
+<body>
+   <form action="Mensaje.html" method="">
+    <table border="1px" cellpadding="5px" cellspacing="0">
+        <tbody>
+            <tr>
+                <th colspan="2">Registro de producto</th>
+            </tr>
+            <tr>
+                <td>Codigo:</td>
+                <td>
+                    <input type="number" name="codigo" id="codigo">
+                </td>
+            </tr>
+            <tr>
+                <td>Descripcion:</td>
+                <td>
+                    <textarea name="direccion" id="direccion" cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Codigo de barra:</td>
+                <td>
+                    <input type="number" name="codigo_barra" id="codigo_barra">
+                </td>
+            </tr>
+            <tr>
+                <td>Precio Unitario:</td>
+                <td>
+                    <input type="number" name="precio_unitario" id="precio_unitario">
+                </td>
+            </tr>
+            <tr>
+                <td>Stock:</td>
+                <td>
+                    <input type="number" name="cantidad_stock" id="cantidad_stock">
+                </td>
+            </tr>
+            <tr>
+                <td>Proveedor:</td>
+                <td>
+                    <input type="text" name="provedor" id="proveedor_id">
+                </td>
+            </tr>
+            <tr>
+                <td>Estado:</td>
+                <td>
+                    <input type="checkbox" name="Estado" id="Estado">Activo
+                </td>
+            </tr>
+            <tr>
+                <td>Categoria:</td>
+                <td >
+                    <select name="categoria" id="categoria">
+                        <option value="Categoria1">Categoria 1</option>
+                        <option value="Categoria2">Categoria 2</option>
+                        <option value="Categoria2">Categoria 3</option>
+                        <option value="Categoria2">Categoria 4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Guardar"></td>
+                <td><input type="reset" value="Cancelar"></td>
+            </tr>       
+        </tbody>
+    </table>
+   </form>
+</body>
+</html>
